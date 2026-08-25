@@ -7,7 +7,7 @@ import rbfvpn
 let client = Rbfvpn()
 
 do {
-    let demo_sub = try await client.get_demo()
+    let demo_sub = try await client.getDemo()
     print(demo_sub)
 } catch {
     print("Error: \(error)")
